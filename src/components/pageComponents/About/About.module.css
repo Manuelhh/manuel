@@ -34,16 +34,16 @@
 .aboutTextContainer {
   flex: 1;
   display: flex;
+  text-align: justify;
   justify-content: center;
   align-items: center;
-}
-
-.text {
-  text-align: justify;
-  padding: 25px;
   font-weight: 100;
+  margin: 20px;
 }
 
+.aboutTextContainer span {
+  font-weight: 300;
+}
 .aboutImgContainer {
   flex: 1;
 }
