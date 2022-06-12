@@ -19,7 +19,6 @@ export const Project = (props) => {
                 <div>{props.project.tecnologies[2]}</div>
                 <div className={s.moreButton}>
                   <a className={s.moreButton} href={props.project.gitHubLink}>
-                    {" "}
                     more info
                   </a>
                 </div>

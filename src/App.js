@@ -32,13 +32,10 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/skills" element={<Skills />} />
-
         {projectsData.map((project) => (
           <Route path={project.path} element={<Project project={project} />} />
         ))}
-
         <Route path="/contact" element={<Contact />} />
-
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </div>
