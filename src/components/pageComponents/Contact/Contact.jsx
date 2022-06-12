@@ -22,6 +22,7 @@ const Contact = () => {
       emailRef.current.value === "" ||
       messageRef.current.value === ""
     ) {
+      nameRef.current.focus();
       return;
     }
 
@@ -89,7 +90,15 @@ const Contact = () => {
       </div>
       {sent ? (
         <div className={s.thanksMessage}>
-          <p>message sent.</p>
+          <div>
+            message sent
+            <sup
+              className={s.thanksMessageButton}
+              onClick={() => setSent(false)}
+            >
+              close
+            </sup>
+          </div>
         </div>
       ) : (
         ""

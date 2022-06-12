@@ -1,6 +1,5 @@
 import s from "./About.module.css";
 import aboutImg from "../../../images/aboutPage/aboutImg.png";
-import gaImg from "../../../images/aboutPage/ga.png";
 import HomeButton from "../../generalComponents/HomeButton/HomeButton";
 
 const About = () => {
