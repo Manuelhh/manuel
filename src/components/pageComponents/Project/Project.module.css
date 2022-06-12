@@ -1,0 +1,103 @@
+.projectPageContainer {
+  height: 100vh;
+  flex: 7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top {
+  width: 100%;
+  height: 5%;
+  text-align: end;
+  position: sticky;
+  top: 0px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.bottom {
+  width: 100%;
+  height: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectContainer {
+  height: 50%;
+  width: 65%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.descriptionContainer {
+  width: 100%;
+  height: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textContainer {
+  height: 70%;
+  width: 90%;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.textContainer div {
+  height: auto;
+  text-align: end;
+}
+
+.title {
+  font-weight: 300;
+}
+
+.description {
+  font-weight: 300;
+}
+
+.tecnologies {
+  font-weight: 300;
+}
+
+.moreButton {
+  border: none;
+  text-decoration: none;
+  color: black;
+  font-weight: 300;
+}
+
+.moreButton:hover {
+  transition: 0.3s;
+  color: gray;
+  cursor: pointer;
+}
+
+.projetImgContainer {
+  width: auto;
+  height: auto;
+  flex: 1;
+}
+
+.projetImgContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: grayscale(100%);
+  border-radius: 10px;
+}
+
+.projetImgContainer img:hover {
+  filter: grayscale(0%);
+  transition: 0.3s;
+}
