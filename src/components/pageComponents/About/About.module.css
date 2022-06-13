@@ -59,9 +59,9 @@
 .aboutImg {
   height: 100%;
   width: 100%;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 10px;
   opacity: 0.75;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .aboutImg:hover {
