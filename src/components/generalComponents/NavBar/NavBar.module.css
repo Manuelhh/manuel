@@ -1,32 +1,30 @@
 .navBarContainer {
-  background-color: 1px solid black;
   font-weight: 100;
   height: 95vh;
   flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
   position: sticky;
-  top: 0px;
+  top: 0;
   padding: 20px;
 }
 
+.moreContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-weight: 200;
+}
 .topNavBarContainer {
   width: 100%;
   height: 50%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.moreContainer {
-  width: 100%;
-  height: 15%;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  font-weight: 200;
 }
 
 .p:hover {
@@ -86,4 +84,38 @@ img {
 .link:hover {
   color: gray;
   transition: 0.3s;
+}
+
+.hamburgerMenuContainer {
+  display: none;
+}
+
+.hamburgerMenu:hover {
+  transition: 0.3s;
+  color: gray;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .navBarContainer {
+    min-height: 5vh;
+    max-height: 100vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .moreContainer {
+    width: auto;
+    align-items: flex-start;
+  }
+
+  .topNavBarContainer {
+    width: auto;
+  }
+
+  .contactMenuContainer {
+    width: auto;
+    flex-direction: column;
+  }
 }

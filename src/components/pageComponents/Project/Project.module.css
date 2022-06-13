@@ -103,3 +103,24 @@
   object-fit: contain;
   border-radius: 10px;
 }
+
+@media screen and (max-width: 600px) {
+  .projectPageContainer {
+    min-height: 100vh;
+    justify-content: space-between;
+  }
+
+  .bottom {
+    min-height: 94vh;
+  }
+
+  .projectContainer {
+    height: 75vh;
+    width: 100%;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .textContainer {
+    height: 30vh;
+  }
+}

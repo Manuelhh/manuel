@@ -15,12 +15,12 @@ const NavBar = (props) => {
 
   return (
     <div className={s.navBarContainer}>
+      <div className={s.moreContainer}>
+        <p className={s.p} onClick={handleNavBar}>
+          {props.navBarState.showNavBar ? "hide" : "more"}
+        </p>
+      </div>
       <div className={s.topNavBarContainer}>
-        <div className={s.moreContainer}>
-          <p className={s.p} onClick={handleNavBar}>
-            {props.navBarState.showNavBar ? "hide" : "more"}
-          </p>
-        </div>
         <div
           className={s.pageMenuContainer}
           style={props.navBarState.showNavBar ? {} : { display: "none" }}
@@ -62,6 +62,9 @@ const NavBar = (props) => {
             <Link className={s.link} to="/eight">
               <div className={s.menuItemContainer}>eight</div>
             </Link>
+          </div>
+          <div className={s.hamburgerMenuContainer}>
+            <span className={s.hamburgerMenu}>menu</span>
           </div>
         </div>
       </div>

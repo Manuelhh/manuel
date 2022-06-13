@@ -55,3 +55,9 @@
   justify-content: center;
   font-size: medium;
 }
+
+@media screen and (max-width: 600px) {
+  .homeCompContainer {
+    min-height: 100vh;
+  }
+}
