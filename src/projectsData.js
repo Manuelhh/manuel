@@ -43,7 +43,7 @@ export const projectsData = [
     id: 5,
     path: "/five",
     title: "html & css website",
-    description: "html & css website",
+    description: "html & css based website",
     tecnologies: ["htlm", "css", "queries"],
     gitHubLink: "",
     img: "https://res.cloudinary.com/mangud/image/upload/v1655037938/manuel/website_efsv77.png",

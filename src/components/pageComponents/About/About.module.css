@@ -42,7 +42,15 @@
 }
 
 .aboutTextContainer span {
-  font-weight: 100;
+  font-weight: 300;
+}
+
+.diploma {
+  color: darkslategrey;
+}
+
+.location {
+  font-weight: 300;
 }
 .aboutImgContainer {
   flex: 1;

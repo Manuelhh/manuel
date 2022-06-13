@@ -12,10 +12,15 @@ const About = () => {
         <div className={s.aboutContainer}>
           <div className={s.aboutTextContainer}>
             <p>
-              <span>
+              <span className={s.diploma}>
                 General Assembly <br /> Software Engineer grad.
                 <br />
                 <sub> June to December 2021</sub>
+              </span>
+              <br />
+              <br />
+              <span>
+                <sup className={s.location}>Toronto, ON. Canada.</sup>{" "}
               </span>
               <br />
               <br />I am passionate about programming and I have extensive
