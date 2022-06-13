@@ -62,6 +62,9 @@ const NavBar = (props) => {
             <Link className={s.link} to="/eight">
               <div className={s.menuItemContainer}>eight</div>
             </Link>
+            <Link className={s.link} to="/nine">
+              <div className={s.menuItemContainer}>nine</div>
+            </Link>
           </div>
           <div className={s.hamburgerMenuContainer}>
             <span className={s.hamburgerMenu}>menu</span>

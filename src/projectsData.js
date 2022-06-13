@@ -80,4 +80,14 @@ export const projectsData = [
     img: "https://res.cloudinary.com/mangud/image/upload/v1655038544/manuel/yelpcamp_lispaw.png",
     appLink: "https://mh-yelpcamp.herokuapp.com",
   },
+  {
+    id: 9,
+    path: "/nine",
+    title: "artist/academic personal website",
+    description: "first project as a freelancer",
+    tecnologies: ["react", "express", "node js"],
+    gitHubLink: "https://github.com/Manuelhh/marisela-website",
+    img: "https://res.cloudinary.com/mangud/image/upload/v1655149324/manuel/marisela_hj00nt.png",
+    appLink: "https://github.com/Manuelhh/marisela-website",
+  },
 ];
