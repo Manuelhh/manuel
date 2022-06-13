@@ -32,7 +32,7 @@ export const projectsData = [
   {
     id: 4,
     path: "/four",
-    title: "movie fihght app",
+    title: "movie fight app",
     description: "compares two given movies",
     tecnologies: ["axios", "js", "css"],
     gitHubLink: "https://github.com/Manuelhh/movie-fight-app",
@@ -45,7 +45,7 @@ export const projectsData = [
     title: "html & css website",
     description: "html & css based website",
     tecnologies: ["htlm", "css", "queries"],
-    gitHubLink: "",
+    gitHubLink: "https://github.com/Manuelhh/html-css-website",
     img: "https://res.cloudinary.com/mangud/image/upload/v1655037938/manuel/website_efsv77.png",
     appLink: "https://competent-easley-7a403a.netlify.app",
   },
@@ -83,7 +83,7 @@ export const projectsData = [
   {
     id: 9,
     path: "/nine",
-    title: "artist/academic personal website",
+    title: "artist/academic's personal website",
     description: "first project as a freelancer",
     tecnologies: ["react", "js", "hooks"],
     gitHubLink: "https://github.com/Manuelhh/marisela-website",
