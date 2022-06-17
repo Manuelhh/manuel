@@ -118,7 +118,9 @@
 
 @media screen and (max-width: 600px) {
   .contactPageContainer {
-    min-height: 90vh;
+    min-height: 100vh;
+
+    justify-content: space-evenly;
   }
 
   .bottomContainer {
@@ -127,11 +129,11 @@
   }
 
   .contactFormContainer {
-    /* background-color: blueviolet; */
     width: 100%;
   }
 
   .thanksMessage {
-    font-size: xx-small;
+    background-color: aqua;
+    height: 10vh;
   }
 }

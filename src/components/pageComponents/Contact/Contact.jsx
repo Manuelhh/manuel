@@ -101,7 +101,7 @@ const Contact = () => {
           </div>
         </div>
       ) : (
-        ""
+        <div className={s.thanksMessage}></div>
       )}
     </div>
   );

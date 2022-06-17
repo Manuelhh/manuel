@@ -68,3 +68,13 @@
   margin-top: 10px;
   font-weight: 300;
 }
+
+@media screen and (max-width: 600px) {
+  .skillsPageContainer {
+    min-height: 100vh;
+  }
+  .bottom {
+    min-height: 90vh;
+    align-items: space-between;
+  }
+}
