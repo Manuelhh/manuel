@@ -73,9 +73,12 @@
 @media screen and (max-width: 600px) {
   .aboutPageContainer {
     min-height: 100vh;
+    justify-content: space-between;
   }
 
   .aboutContainer {
     flex-direction: column;
+    height: auto;
+    justify-content: center;
   }
 }

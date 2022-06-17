@@ -98,8 +98,7 @@ img {
 
 @media screen and (max-width: 600px) {
   .navBarContainer {
-    min-height: 5vh;
-    max-height: 100vh;
+    max-height: fit-content;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -107,15 +106,18 @@ img {
 
   .moreContainer {
     width: auto;
+    height: auto;
     align-items: flex-start;
   }
 
   .topNavBarContainer {
     width: auto;
+    height: auto;
   }
 
   .contactMenuContainer {
     width: auto;
+    height: auto;
     flex-direction: column;
   }
 }
