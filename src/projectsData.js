@@ -83,7 +83,7 @@ export const projectsData = [
   {
     id: 9,
     path: "/nine",
-    title: "artist/academic's personal website",
+    title: "artist / academic's personal website",
     description: "first project as a freelancer",
     tecnologies: ["react", "js", "hooks"],
     gitHubLink: "https://github.com/Manuelhh/marisela-website",
