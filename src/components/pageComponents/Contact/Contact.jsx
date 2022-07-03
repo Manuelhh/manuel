@@ -60,26 +60,26 @@ const Contact = () => {
             <input
               type="text"
               placeholder="name"
-              name="name"
+              name="userName"
               autocomplete="off"
               ref={nameRef}
             />
             <input
               type="text"
               placeholder="subject"
-              name="subject"
+              name="userSubject"
               autocomplete="off"
               ref={subjectRef}
             />
             <input
               type="text"
               placeholder="email"
-              name="email"
+              name="userEmail"
               autocomplete="off"
               ref={emailRef}
             />
             <textarea
-              name="message"
+              name="userMessage"
               rows="5"
               placeholder="message"
               ref={messageRef}
