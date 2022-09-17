@@ -32,44 +32,38 @@
   height: 90%;
   width: 90%;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
 }
 
-.skillContainer {
-  height: auto;
-  width: 240px;
-  margin: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 5px;
-}
-
-.skillTitle {
+.skillsTitle {
+  height: 25%;
+  width: 50%;
+  font-size: 3rem;
+  font-weight: 100;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
-  border-radius: 5px 5px 0px 0px;
-  width: 100%;
-  color: white;
-  font-weight: 300;
+  border: 1px solid black;
+  border-radius: 1rem;
 }
 
-.skill {
-  font-weight: 300;
+.skillsList {
+  height: 40%;
+  width: 70%;
+  font-weight: 100;
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 1.5rem;
 }
 
-.skillOne {
-  margin-top: 10px;
-  font-weight: 300;
-}
-
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .skillsPageContainer {
     min-height: 100vh;
   }
@@ -77,4 +71,4 @@
     min-height: 90vh;
     align-items: space-between;
   }
-}
+} */
