@@ -21,11 +21,8 @@
   width: 100%;
   height: 95%;
   display: flex;
-  justify-content: center;
   align-items: center;
-  display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .skillsContainer {
@@ -63,12 +60,19 @@
   padding: 1.5rem;
 }
 
-/* @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .skillsPageContainer {
     min-height: 100vh;
+    justify-content: space-between;
   }
+
   .bottom {
     min-height: 90vh;
     align-items: space-between;
   }
-} */
+
+  .skillsContainer {
+    justify-content: space-evenly;
+    min-height: 60vh;
+  }
+}
